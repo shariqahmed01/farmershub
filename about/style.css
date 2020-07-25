@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+   /* background-size:cover;
+    background-position: center;
+    background-image: url('logo.jpg');
+    display: inline-flexbox;*/
+   
+    font-family: sans-serif;
+
+}
+h1{
+  text-align: center;
+}
+.menu{
+    background: rgb(0,100,0);
+    text-align: center;
+    
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+ /* 
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  */
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+
+.box{
+    text-align: center;
+}
+.box table{
+    display: inline-block;
+    background-color: yellowgreen;
+    
+}
+.second_2{
+    margin: 30px 0 0 0;
+
+}
+.second_1{
+    float: left;
+    position: relative;
+    left: 20%;
+}
+.second table, th, td {
+    border: 1px solid black;
+    background-color: #76ead7;
+}
+.second th, td {
+    padding: 15px;
+}
+.three{
+    background-color: rosybrown;
+    color: brown;
+    text-align: center;
+}
+table ,th,td{
+    border:0;
+    border-collapse:collapse;
+}
+h1{
+    color:black;
+    text-align: center;
+}
+.four{
+    text-align: center;
+    color:black;
+}
+.four table{
+    display: inline-block;
+}
